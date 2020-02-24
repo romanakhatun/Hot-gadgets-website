@@ -1,0 +1,121 @@
+body {
+	font-family: "Open Sans";
+}
+
+/*Navgation Background*/
+.nav-bg {
+	background-color: #f9f9f9a3;
+}
+
+/*slider*/
+#slider {
+	position: relative;
+}
+#slider::before {
+	content: "Best Product";
+	position: absolute;
+	top: 50%;
+	left: 56%;
+	transform: translate(-50%, -50%) rotate(-90deg);
+	color: #dddddd;
+	font-size: large;
+	font-weight: 800;
+}
+
+.carousel-indicators li {
+	width: 30px;
+	height: 5px;
+	border-radius: 10px;
+	background-color: orange;
+	transition: all 0.3s ease;
+}
+.carousel-indicators .active {
+	background-color: #dddddd;
+	width: 14px;
+	border-radius: 10px;
+	height: 5px;
+}
+.carousel-item {
+	padding: 20px 40px;
+}
+
+/*Buy Now Button*/
+.btn {
+	background-image: linear-gradient(to bottom right, #ff589b, #ff136f);
+	color: #fff;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+/*Card*/
+.card {
+	border: none;
+}
+.shadow {
+	box-shadow: 3px 1px 20px 2px #dddddd;
+}
+.card {
+	margin-left: 26px;
+}
+.inner {
+	overflow: hidden;
+}
+.inner img {
+	transition: all 1s ease;
+}
+.inner:hover img {
+	transform: scale(0.8);
+}
+.card-width {
+	width: 20rem;
+}
+.categories img {
+	width: 100%;
+}
+
+.see-all-link {
+	text-decoration: none;
+	color: orange;
+	font-size: 20px;
+}
+#Categorise h2 {
+	border-bottom: 2px solid orange;
+	width: 50px;
+	height: 10px;
+	border-radius: 10px;
+}
+
+/*Categories*/
+.cat-line-dec {
+	width: 100px;
+}
+.cat-img {
+	width: 550px;
+}
+.category-img-box {
+	background-color: white;
+	padding: 50px 40px;
+	border-radius: 20px 0px 20px 0px;
+	box-shadow: 2px 2px 20px lightgray;
+}
+.col-margin {
+	margin-top: 40px;
+}
+.cat-item {
+	padding-left: 50px;
+}
+
+/* Small Tab */
+@media only screen and (max-width: 767px) {
+	.card {
+		width: 30rem;
+		margin-bottom: 10px;
+	}
+}
+
+/* Mobile Device */
+@media only screen and (max-width: 480px) {
+	.card {
+		width: 23rem;
+	}
+}
