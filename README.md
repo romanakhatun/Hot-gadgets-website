@@ -1,6 +1,6 @@
 # HOT GADGETS
 
-#### Hot Gadgets create with Bootstrap
+#### Hot Gadgets create with HTML5 CSS3 and Bootstrap
 
 <br />
 
